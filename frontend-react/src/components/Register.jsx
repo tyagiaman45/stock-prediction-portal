@@ -31,6 +31,7 @@ function Register() {
   }
   
   return (
+    <>
     <div className="container-fluid min-vh-100 d-flex justify-content-center align-items-center">
       <div className="card p-4 bg-light-dark" style={{ width: "550px" }}>
         <h2 className="text-center mb-4 text-light">Create an Account</h2>
@@ -68,6 +69,7 @@ function Register() {
       </form>
       </div>
     </div>
+    </>
   );
 }
 

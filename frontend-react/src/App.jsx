@@ -6,7 +6,7 @@ import Register from './components/Register'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Login from './components/Login'
-
+import AuthProvider from './AuthProvider'
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+    <AuthProvider>
     <BrowserRouter>
     <Header/>
     
@@ -26,6 +27,7 @@ function App() {
 
     
     </BrowserRouter>
+    </AuthProvider>
     
     
     
